@@ -1,0 +1,32 @@
+track RegBuildOverview
+compositeTrack on
+visibility dense
+shortLabel Ensembl Build Overview
+longLabel Overview of Ensembl Regulatory Build
+dragAndDrop subTracks
+priority 1
+type bigBed 9
+noInherit on
+
+	track BuildOverview
+	bigDataUrl http://ftp.ensembl.org/pub/papers/regulation/hg38/overview/RegBuild.bb
+	parent RegBuildOverview on
+	shortLabel Ensembl Reg Build
+	longLabel Ensembl Regulatory annotation of regional function
+	type bigBed 9
+	itemRgb on
+	priority 1
+	visibility dense
+
+	track TFBS_Summary
+	bigDataUrl http://ftp.ensembl.org/pub/papers/regulation/hg38/overview/all_tfbs.bw
+	parent RegBuildOverview  on
+	shortLabel TFBS Summary
+	longLabel Summary of Ensembl Transcription Factor Binding Site peaks from all cell types
+	type bigWig
+	autoscale on
+	maxHeightPixels 128:64:16
+	viewLimits 0:1
+	color 179,123,0
+	priority 2
+	visibility dense
