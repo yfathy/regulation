@@ -1,5 +1,5 @@
-hub TestEnsemblRegulatoryBuild
-shortLabel Ensembl Regulatory Build
-longLabel Evidence summaries and provisional results for the new Ensembl Regulatory Build
+hub YFTestEnsemblRegulatoryBuild
+shortLabel YFEnsembl Regulatory Build
+longLabel YFEvidence summaries and provisional results for the new Ensembl Regulatory Build
 genomesFile genomes.txt
 email helpdesk@ensembl.org
