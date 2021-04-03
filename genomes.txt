@@ -1,2 +1,2 @@
 genome hg38
-trackDb hg38/trackDb.txt
+trackDb http://github.com/yfathy/regulations/blob/master/hg38/trackDb.txt
