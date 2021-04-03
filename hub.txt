@@ -1,5 +1,5 @@
 hub YFTestEnsemblRegulatoryBuild
 shortLabel YFEnsembl Regulatory Build
 longLabel YFEvidence summaries and provisional results for the new Ensembl Regulatory Build
-genomesFile http://github.com/yfathy/regulations/blob/master/genomes.txt
+genomesFile http://github.com/yfathy/regulations/blob/master/genomes3.txt
 email helpdesk@ensembl.org
