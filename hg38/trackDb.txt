@@ -2,7 +2,7 @@ track RegBuildOverview
 compositeTrack on
 visibility dense
 shortLabel YFEnsembl Build Overview
-longLabel Overview of YFEnsembl Regulatory Build
+longLabel YFOverview of Ensembl Regulatory Build
 dragAndDrop subTracks
 priority 1
 type bigBed 9
@@ -11,8 +11,8 @@ noInherit on
 	track BuildOverview
 	bigDataUrl http://raw.githubusercontent.com/yfathy/regulations/master/hg38/overview/RegBuild.bb
 	parent RegBuildOverview on
-	shortLabel Ensembl Reg Build
-	longLabel Ensembl Regulatory annotation of regional function
+	shortLabel YFEnsembl Reg Build
+	longLabel YFEnsembl Regulatory annotation of regional function
 	type bigBed 9
 	itemRgb on
 	priority 1
@@ -21,8 +21,8 @@ noInherit on
 	track TFBS_Summary
 	bigDataUrl http://raw.githubusercontent.com/yfathy/regulations/master/hg38/overview/all_tfbs.bw
 	parent RegBuildOverview  on
-	shortLabel TFBS Summary
-	longLabel Summary of Ensembl Transcription Factor Binding Site peaks from all cell types
+	shortLabel YF_TFBS Summary
+	longLabel YF_Summary of Ensembl Transcription Factor Binding Site peaks from all cell types
 	type bigWig
 	autoscale on
 	maxHeightPixels 128:64:16
