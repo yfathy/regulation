@@ -1,2 +1,2 @@
-genome https://raw.githubusercontent.com/yfathy/regulations/master/hg38
+genome hg38
 trackDb https://raw.githubusercontent.com/yfathy/regulations/master/hg38/trackDb.txt
