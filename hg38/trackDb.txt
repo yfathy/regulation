@@ -1,8 +1,8 @@
 track RegBuildOverview
 compositeTrack on
 visibility dense
-shortLabel Ensembl Build Overview
-longLabel Overview of Ensembl Regulatory Build
+shortLabel YFEnsembl Build Overview
+longLabel Overview of YFEnsembl Regulatory Build
 dragAndDrop subTracks
 priority 1
 type bigBed 9
